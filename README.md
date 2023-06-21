@@ -19,18 +19,17 @@ pip install -r requirements.txt
 
 2. Set the path to your input video file and the desired output text file in the script:
 
-```python
 # Path to the video file
 video_path = '/input/path'
 # Path to the output text file
 output_file = '/output/path'
 
 
+
 Implement any necessary preprocessing techniques in the preprocess_frame function. This function allows you to resize, denoise, enhance quality, or apply other preprocessing steps to the frame.
 
 Run the script using the following command:
 
-Copy code
 python video_text_extractor.py
 The extracted text will be saved to the specified output file.
 
